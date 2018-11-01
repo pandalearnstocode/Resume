@@ -1,0 +1,62 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%Section: Work Experience at the top
+\sectionTitle{Academic and Individual Projects}{\faSuitcase}
+%\renewcommand{\labelitemi}{$\bullet$}
+\begin{experiences}
+  \experience
+    {Facebook Bot}{Implemented a Facebook chatbot}{(using dialogue flow }{facbook API in python)}
+    {February,2018} {
+                      \begin{itemize}
+                        \item Created an initial Facebook chat-bot for automated reply and small talk.
+                        \item Connected it with web-hook and personal blog. Used dialog flow for data storage and automated replies using deep learning based models trained on user communication data. 
+                        \item \textbf{Next Phase:} To connect it with the Google assistant and voice API.
+                        \item \textbf{Further Development:} To test this bot in a scalable platform for intent and behavioural analysis. Here is a short video \href{http://www.nouvo.ch/s-007}{\textcolor{red}{easily}} of the chat bot in the initial stage.
+                      \end{itemize}
+                    }
+                    {Python, Facebook API, Chatbot, dialogflow, WebHook, Flask, ngrok}
+  \emptySeparator
+  \experience
+    {Computer Vision} {Object detection and classification using Tensorflow, Darknet }{YOLO V2}{ and Tiny YOLO}
+    {Jan,2018}    {
+                      \begin{itemize}
+                        \item Implemented Tensorflow and Open CV for image classification.                           
+                        \item Integration of GPU for video processing and object classification using pre-defined models.  
+                        
+                        \item Classified object in a live video using web camera and pre-trained YOLO V2 and tiny YOLO.
+                        
+                        \item Training new models for classifying new objects using web scrapping with higher level of accuracy. Here is a smaller video demonstrating classification using live cam feed, tensorflow and opencv.
+                                                              
+                      \end{itemize}
+                    }
+                    {Python, OpenCV, tensorflow, raspberry pi, YOLO, GPU}
+  
+  \emptySeparator
+  \experience
+    {YouTubeR}{A comprehensive package to access and analyse data from YouTube Data API Version 3 via R}{(Hosted in Bit bucket)}{( Incomplete Documentation)}
+    {July,2015}    {
+                      \begin{itemize}
+                        \item This package converts the complex data structures, sparse data, nested lists of the from JSON to class S3 object, does missing value treatment, graphical analysis and sentiment analysis.
+                        \item Application of rvest, jsonlite, httr, RCurl (for web mining and scarping), tidyr, dplyr,purrr, broom,lubridate, strinigi, stringr (for data manipulation) and Packrat (for reputability and dependency management and robust development).
+                        \item Here is the link for applications developed using this package, 1) Indian News Channel Polarity Analysis, 2) Geospecial viewership monitor of Youtube Channel Being Indian, 3) Task scheduling in R.
+                      \end{itemize}
+                    }
+                    {rvest, jsonlite, RCurl, tidyverse, purrr, broom, packrat, Youtube Data API V3, G+ API, Facebook API}
+  \emptySeparator
+  \consultantexperience
+  {Dissertation}{Server based interactive programming in R to visualize Maximum likelihood estimate}{Supervisor: Dr. Kapil Kumar}{Assistant Professor}
+  {June, 2016}{Delhi University}{Department of Statistics}{
+                      Simulating data for a given user specified probability distribution (i.e. family or distribution name and parameter space). This interactive application uses Shiny Server to visualize the log-likelihood of the simulated data in a contour plot and obtains MLE estimates of the population parameters by solving a system of non linear equations \textcolor{blue}{easily}
+                      \newline
+                      Here is the link for other academic projects, 1) Visualizating MLE, 2) SPSS,  4) C, 5) Minitab, 6) R
+                    }
+                    {\emph{shiny} , MLE, Mutivariate Data Visualization, SPSS, C, Minitab, R, Excel}
+\end{experiences}
